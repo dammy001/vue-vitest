@@ -11,7 +11,7 @@ specifiers:
   sass: ^1.45.1
   typescript: ^4.4.4
   vite: ^2.7.7
-  vitest: 0.0.117
+  vitest: 0.0.119
   vue: ^3.2.25
   vue-tsc: 0.30.1
 
@@ -29,7 +29,7 @@ devDependencies:
   sass: 1.45.1
   typescript: 4.5.4
   vite: 2.7.7_sass@1.45.1
-  vitest: 0.0.117_vite@2.7.7
+  vitest: 0.0.119_vite@2.7.7
   vue-tsc: 0.30.1_typescript@4.5.4
 
 packages:
@@ -1797,8 +1797,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.0.117_vite@2.7.7:
-    resolution: {integrity: sha512-BcNvxUQ15alP60PN3mvThMZMolMYwKVBepvkm69rL5Og50R6YCLTzR+ePPhWH9+uQ6oOs14fiGDGvf7etQn2tw==}
+  /vitest/0.0.119_vite@2.7.7:
+    resolution: {integrity: sha512-8k71f4LWW2Uvy/6FdsaWjTbspu3vbp/p4ACdRUt5FCY+erEZiGbxld3FJCGu+tkFGa+FnoGcPb4fRxZZ49AcHw==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
