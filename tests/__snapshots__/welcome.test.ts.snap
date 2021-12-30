@@ -1,0 +1,6 @@
+// Vitest Snapshot v1
+
+exports[`HelloWorld.vue 1`] = `
+"<h1 data-v-469af010=\\"\\">Hello World</h1>
+<button type=\\"button\\" data-v-469af010=\\"\\">count is: 0</button>"
+`;
