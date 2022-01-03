@@ -12,7 +12,7 @@ specifiers:
   sass: ^1.45.1
   typescript: ^4.4.4
   vite: ^2.7.7
-  vitest: 0.0.122
+  vitest: 0.0.128
   vue: ^3.2.25
   vue-tsc: 0.30.1
 
@@ -31,7 +31,7 @@ devDependencies:
   sass: 1.45.1
   typescript: 4.5.4
   vite: 2.7.7_sass@1.45.1
-  vitest: 0.0.122_happy-dom@2.25.1+vite@2.7.7
+  vitest: 0.0.128_happy-dom@2.25.1+sass@1.45.1
   vue-tsc: 0.30.1_typescript@4.5.4
 
 packages:
@@ -2015,6 +2015,31 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
+  /vite/2.7.10_sass@1.45.1:
+    resolution: {integrity: sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.13.15
+      postcss: 8.4.5
+      resolve: 1.20.0
+      rollup: 2.62.0
+      sass: 1.45.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /vite/2.7.7_sass@1.45.1:
     resolution: {integrity: sha512-Nm4ingl//gMSj/p1aCBHuTc5Fd8W8Mwdci/HUvqCVq8xaJqF7z08S/LRq1M9kS0jRfJk1/f/CwUyQAr6YgsOLw==}
     engines: {node: '>=12.2.0'}
@@ -2040,16 +2065,18 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.0.122_happy-dom@2.25.1+vite@2.7.7:
-    resolution: {integrity: sha512-ayAY8Ue444rutcU6gXO2fTASmVSEEYGBtrGSRgnVBrBo+RlOkv0i67yUJFLyH3krtKdLbbKGk+lQ5B7kBvhX7w==}
+  /vitest/0.0.128_happy-dom@2.25.1+sass@1.45.1:
+    resolution: {integrity: sha512-a6rpX9HEr/bu0vPnCHj6UyXVxiiqP8mcvn776sw06zBNvMCD66aB82IxzM17kLs1NyRLtngthMMmwZuOBLIX3g==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
+      '@vitest/ui': '*'
       c8: '*'
       happy-dom: '*'
       jsdom: '*'
-      vite: ^2.7.1
     peerDependenciesMeta:
+      '@vitest/ui':
+        optional: true
       c8:
         optional: true
       happy-dom:
@@ -2064,7 +2091,11 @@ packages:
       local-pkg: 0.4.0
       tinypool: 0.0.6
       tinyspy: 0.2.6
-      vite: 2.7.7_sass@1.45.1
+      vite: 2.7.10_sass@1.45.1
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
     dev: true
 
   /void-elements/3.1.0:
