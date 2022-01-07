@@ -12,7 +12,7 @@ specifiers:
   sass: ^1.45.1
   typescript: ^4.4.4
   vite: ^2.7.7
-  vitest: 0.0.135
+  vitest: 0.0.139
   vue: ^3.2.25
   vue-tsc: 0.30.2
 
@@ -31,7 +31,7 @@ devDependencies:
   sass: 1.45.1
   typescript: 4.5.4
   vite: 2.7.7_sass@1.45.1
-  vitest: 0.0.135_happy-dom@2.25.1+sass@1.45.1
+  vitest: 0.0.139_happy-dom@2.25.1+sass@1.45.1
   vue-tsc: 0.30.2_typescript@4.5.4
 
 packages:
@@ -1911,8 +1911,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  /tinyspy/0.2.7:
-    resolution: {integrity: sha512-AaNITSED8/2j2/nSgPeQZW2nNhdTxNJ7XwcdBezI7MtPS2C+pJ1HjcHc/qfDhohUhQvODITdxzWH9u+Qs+7yFQ==}
+  /tinyspy/0.2.8:
+    resolution: {integrity: sha512-4VXqQzzh9gC5uOLk77cLr9R3wqJq07xJlgM9IUdCNJCet139r+046ETKbU1x7mGs7B0k7eopyH5U6yflbBXNyA==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -2046,8 +2046,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.0.135_happy-dom@2.25.1+sass@1.45.1:
-    resolution: {integrity: sha512-Xr+WEIb0NKLPmCN/VhgSeTbei/na/aUn3is15hU7pnasEW57Juyn3RyoXrvX5M+5xY4GIvSAOefoBtVitjoP9A==}
+  /vitest/0.0.139_happy-dom@2.25.1+sass@1.45.1:
+    resolution: {integrity: sha512-5AXMaEOJXgQpobgXkzBPGP8o4NpAhT2yczeRD1V94U0VWGxRObI1zjqtxBPEtgda8Q4rQKw0SVlHCR0P76h9QA==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
@@ -2071,7 +2071,7 @@ packages:
       happy-dom: 2.25.1
       local-pkg: 0.4.1
       tinypool: 0.1.1
-      tinyspy: 0.2.7
+      tinyspy: 0.2.8
       vite: 2.7.10_sass@1.45.1
     transitivePeerDependencies:
       - less
