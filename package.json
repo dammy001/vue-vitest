@@ -10,23 +10,33 @@
     "coverage": "vitest --coverage",
     "lint": "eslint --ext .js,.vue,.ts .",
     "lint:fix": "eslint --ext .js,.vue,.ts . --fix",
+    "format": "prettier --write \"./src/**/*.{ts,vue,js}\"",
+    "format:check": "prettier --check \"./src/**/*.{ts,vue,js}\"",
     "ci": "pnpm typecheck && pnpm lint && pnpm build && pnpm test",
     "prepare": "husky install"
   },
   "dependencies": {
-    "vue": "3.2.27"
+    "vue": "3.2.28"
   },
   "devDependencies": {
     "@damilaredev/eslint-config-vue": "^0.0.5",
     "@vitejs/plugin-vue": "2.1.0",
     "@vue/test-utils": "2.0.0-rc.18",
+    "autoprefixer": "^10.4.2",
     "eslint": "8.7.0",
+    "eslint-config-prettier": "^8.3.0",
     "happy-dom": "2.28.0",
     "husky": "7.0.4",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
     "sass": "1.49.0",
+    "tailwindcss": "^3.0.15",
     "typescript": "4.5.5",
     "vite": "2.7.13",
     "vitest": "0.1.27",
     "vue-tsc": "0.31.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
