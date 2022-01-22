@@ -1,2 +1,5 @@
 extends:
   - "@damilaredev/eslint-config-vue"
+  - "prettier"
+plugins:
+  - "prettier"
