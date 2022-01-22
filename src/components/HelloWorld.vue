@@ -12,26 +12,8 @@ const count = ref<number>(0);
   <button
     type="button"
     @click="count++"
-    class="bg-blue-500 py-2 px-8 hover:ring-blue-600"
+    class="bg-purple-500 py-2 px-8 hover:ring-offset-purple-900 rounded mt-5"
   >
     count is: {{ count }}
   </button>
 </template>
-
-<style scoped>
-a {
-  color: #42b983;
-}
-
-label {
-  margin: 0 0.5em;
-  font-weight: bold;
-}
-
-code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #304455;
-}
-</style>

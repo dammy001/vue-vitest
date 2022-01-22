@@ -9,16 +9,19 @@ export default defineConfig({
       '@/': `${resolve(__dirname, './src')}`,
     },
   },
-  plugins: [
-    vue({
-      include: [/\.vue$/, /\.ts$/],
-    }),
-  ],
+  plugins: [vue()],
+  define: {
+    __VUE_PROD_DEVTOOLS__: 'false',
+  },
+  server: {
+    port: 4444,
+  },
   test: {
     global: true,
     environment: 'happy-dom',
     coverage: {
       reporter: ['text', 'html'],
     },
+    reporters: 'dot',
   },
 });
