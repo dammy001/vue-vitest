@@ -9,7 +9,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   happy-dom: 2.30.1
   husky: 7.0.4
-  pinia: 2.0.9
+  pinia: 2.0.10
   postcss: 8.4.5
   prettier: 2.5.1
   sass: 1.49.0
@@ -21,7 +21,7 @@ specifiers:
   vue-tsc: 0.31.1
 
 dependencies:
-  pinia: 2.0.9_typescript@4.5.5+vue@3.2.29
+  pinia: 2.0.10_typescript@4.5.5+vue@3.2.29
   vue: 3.2.29
 
 devDependencies:
@@ -2390,8 +2390,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia/2.0.9_typescript@4.5.5+vue@3.2.29:
-    resolution: {integrity: sha512-iuYdxLJKQ07YPyOHYH05wNG9eKWqkP/4y4GE8+RqEYtz5fwHgPA5kr6zQbg/DoEJGnR2XCm1w1vdt6ppzL9ATg==}
+  /pinia/2.0.10_typescript@4.5.5+vue@3.2.29:
+    resolution: {integrity: sha512-Gq8qCjWkz1SZSCrHqGg/k+wbeu35R7y44eDXFHJlBr5gZ8ooAf6bAHLt5zpAVIDptv09h0+XLZpy9dMHbwvXWw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
