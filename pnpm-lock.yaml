@@ -13,10 +13,10 @@ specifiers:
   postcss: 8.4.6
   prettier: 2.5.1
   sass: 1.49.7
-  tailwindcss: 3.0.18
+  tailwindcss: 3.0.19
   typescript: 4.5.5
   vite: 2.7.13
-  vitest: 0.2.7
+  vitest: 0.2.8
   vue: 3.2.30
   vue-tsc: 0.31.2
 
@@ -36,10 +36,10 @@ devDependencies:
   postcss: 8.4.6
   prettier: 2.5.1
   sass: 1.49.7
-  tailwindcss: 3.0.18_833e1018ad0d7954aa80c53675939269
+  tailwindcss: 3.0.19_833e1018ad0d7954aa80c53675939269
   typescript: 4.5.5
   vite: 2.7.13_sass@1.49.7
-  vitest: 0.2.7_happy-dom@2.31.1+sass@1.49.7
+  vitest: 0.2.8_happy-dom@2.31.1+sass@1.49.7
   vue-tsc: 0.31.2_typescript@4.5.5
 
 packages:
@@ -1290,7 +1290,7 @@ packages:
     resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
     dependencies:
       debug: 3.2.7
-      resolve: 1.21.1
+      resolve: 1.22.0
     dev: true
 
   /eslint-module-utils/2.7.2:
@@ -1343,11 +1343,11 @@ packages:
       eslint-import-resolver-node: 0.3.6
       eslint-module-utils: 2.7.2
       has: 1.0.3
-      is-core-module: 2.8.0
+      is-core-module: 2.8.1
       is-glob: 4.0.3
       minimatch: 3.0.4
       object.values: 1.1.5
-      resolve: 1.21.1
+      resolve: 1.22.0
       tsconfig-paths: 3.12.0
     dev: true
 
@@ -1373,9 +1373,9 @@ packages:
       eslint-plugin-es: 4.1.0_eslint@8.8.0
       eslint-utils: 3.0.0_eslint@8.8.0
       ignore: 5.2.0
-      is-core-module: 2.8.0
+      is-core-module: 2.8.1
       minimatch: 3.0.4
-      resolve: 1.21.1
+      resolve: 1.22.0
       semver: 6.3.0
     dev: true
 
@@ -1940,6 +1940,12 @@ packages:
       has: 1.0.3
     dev: true
 
+  /is-core-module/2.8.1:
+    resolution: {integrity: sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==}
+    dependencies:
+      has: 1.0.3
+    dev: true
+
   /is-date-object/1.0.5:
     resolution: {integrity: sha512-9YQaSxsAiSwcvS33MBk3wTCVnWK+HhF8VZR2jRxehM16QcVOdHqPn4VPHmRK4lSr38n9JriurInLcP90xsYNfQ==}
     engines: {node: '>= 0.4'}
@@ -2222,7 +2228,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.21.1
+      resolve: 1.22.0
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -2528,7 +2534,7 @@ packages:
       jstransformer: 1.0.0
       pug-error: 2.0.0
       pug-walk: 2.0.0
-      resolve: 1.21.1
+      resolve: 1.22.0
     dev: true
 
   /pug-lexer/5.0.1:
@@ -2668,11 +2674,11 @@ packages:
       path-parse: 1.0.7
     dev: true
 
-  /resolve/1.21.1:
-    resolution: {integrity: sha512-lfEImVbnolPuaSZuLQ52cAxPBHeI77sPwCOWRdy12UG/CNa8an7oBHH1R+Fp1/mUqSJi4c8TIP6FOIPSZAUrEQ==}
+  /resolve/1.22.0:
+    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
     hasBin: true
     dependencies:
-      is-core-module: 2.8.0
+      is-core-module: 2.8.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -2882,8 +2888,8 @@ packages:
       get-port: 3.2.0
     dev: true
 
-  /tailwindcss/3.0.18_833e1018ad0d7954aa80c53675939269:
-    resolution: {integrity: sha512-ihPTpEyA5ANgZbwKlgrbfnzOp9R5vDHFWmqxB1PT8NwOGCOFVVMl+Ps1cQQ369acaqqf1BEF77roCwK0lvNmTw==}
+  /tailwindcss/3.0.19_833e1018ad0d7954aa80c53675939269:
+    resolution: {integrity: sha512-rjsdfz/qZya5xQ0OVynEMETgWq1CacmftgMYeXXh6bRM5vxsNwRSbMJsCCIjq/w67om9VP/AFMolOwiE+5VKig==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -2911,7 +2917,7 @@ packages:
       postcss-selector-parser: 6.0.9
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
-      resolve: 1.21.1
+      resolve: 1.22.0
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -3087,8 +3093,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.2.7_happy-dom@2.31.1+sass@1.49.7:
-    resolution: {integrity: sha512-rKbmtADi6jsxYrwBrw4+sdYPLm3eiTmx7ojoZXQshScxnGWbHP18hWNa2NUEOYgowatkIiWPDVIyFB1kPnhokw==}
+  /vitest/0.2.8_happy-dom@2.31.1+sass@1.49.7:
+    resolution: {integrity: sha512-shzN00EkvUNzP8cSykhrOCwB7MlGxcwJNjOtHhbayvexGnqX6oLOfEp3OQixWdDJpEaqNiE3Lcie0WsOnoQ3Og==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
