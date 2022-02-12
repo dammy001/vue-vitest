@@ -15,7 +15,7 @@ specifiers:
   sass: 1.49.7
   tailwindcss: 3.0.22
   typescript: 4.5.5
-  vite: 2.8.0
+  vite: 2.8.1
   vitest: 0.3.3
   vue: 3.2.31
   vue-tsc: 0.31.2
@@ -26,7 +26,7 @@ dependencies:
 
 devDependencies:
   '@damilaredev/eslint-config-vue': 0.0.7_eslint@8.9.0+typescript@4.5.5
-  '@vitejs/plugin-vue': 2.2.0_vite@2.8.0+vue@3.2.31
+  '@vitejs/plugin-vue': 2.2.0_vite@2.8.1+vue@3.2.31
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.31
   autoprefixer: 10.4.2_postcss@8.4.6
   eslint: 8.9.0
@@ -38,7 +38,7 @@ devDependencies:
   sass: 1.49.7
   tailwindcss: 3.0.22_autoprefixer@10.4.2
   typescript: 4.5.5
-  vite: 2.8.0_sass@1.49.7
+  vite: 2.8.1_sass@1.49.7
   vitest: 0.3.3_happy-dom@2.31.1+sass@1.49.7
   vue-tsc: 0.31.2_typescript@4.5.5
 
@@ -372,14 +372,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/2.2.0_vite@2.8.0+vue@3.2.31:
+  /@vitejs/plugin-vue/2.2.0_vite@2.8.1+vue@3.2.31:
     resolution: {integrity: sha512-wXigM1EwN2G7rZcwG6kLk9ivvIMhx2363tCEvMBiXcTu5nePM/12hUPVzPb83Uugt6U+zom1gTpJopi/Ow/jwg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.8.0_sass@1.49.7
+      vite: 2.8.1_sass@1.49.7
       vue: 3.2.31
     dev: true
 
@@ -3106,8 +3106,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.8.0_sass@1.49.7:
-    resolution: {integrity: sha512-ed5rjyeysttuPJX/aKSA0gTB/8ZKLM5xF6FtEuKy1B9DiQbDNFMVMQxnb9JesgBPUMMIJxC8w5KZ/KNWLKFXoA==}
+  /vite/2.8.1_sass@1.49.7:
+    resolution: {integrity: sha512-Typ8qjUnW0p53gBsJpisrKcZlEbUPZATja9BG6Z09QZjg9YrnEn/htkr/VH4WhnH7eNUQeSD+wKI1lHzQRWskw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -3157,7 +3157,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.2.10
-      vite: 2.8.0_sass@1.49.7
+      vite: 2.8.1_sass@1.49.7
     transitivePeerDependencies:
       - less
       - sass
