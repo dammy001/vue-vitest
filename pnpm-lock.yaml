@@ -16,7 +16,7 @@ specifiers:
   tailwindcss: 3.0.23
   typescript: 4.5.5
   vite: 2.8.1
-  vitest: 0.3.3
+  vitest: 0.3.6
   vue: 3.2.31
   vue-tsc: 0.31.3
 
@@ -39,7 +39,7 @@ devDependencies:
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
   vite: 2.8.1_sass@1.49.7
-  vitest: 0.3.3_happy-dom@2.33.1+sass@1.49.7
+  vitest: 0.3.6_happy-dom@2.33.1+sass@1.49.7
   vue-tsc: 0.31.3_typescript@4.5.5
 
 packages:
@@ -3109,8 +3109,33 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.3.3_happy-dom@2.33.1+sass@1.49.7:
-    resolution: {integrity: sha512-hBUc1KrsDd0O/qXheXFuSW3yol25QWHp/RFSBX5rrJvp8Ehix2/tUdk62O/OPPGvxmNR1svHQycvRnDl4NtKmQ==}
+  /vite/2.8.3_sass@1.49.7:
+    resolution: {integrity: sha512-967klrEiG7HEsN7fQYYVETs5495Iu6GpI7YyxoO5yVTJCRxjV8HhWgNWKgrbazjoOB9DQuztL53/nUoNqHNsWg==}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.14.21
+      postcss: 8.4.6
+      resolve: 1.22.0
+      rollup: 2.67.1
+      sass: 1.49.7
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vitest/0.3.6_happy-dom@2.33.1+sass@1.49.7:
+    resolution: {integrity: sha512-EzlAmGHDh/sQhzKeqDtEae6nlFM5pJKJefj5P2eUUmg6DcXL2Xj365M7eN29P2tMofzs+qZD/LW+d2wopfNl0g==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
@@ -3135,7 +3160,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.2.10
-      vite: 2.8.1_sass@1.49.7
+      vite: 2.8.3_sass@1.49.7
     transitivePeerDependencies:
       - less
       - sass
