@@ -24,7 +24,7 @@
     "@vitejs/plugin-vue": "2.2.2",
     "@vue/test-utils": "2.0.0-rc.18",
     "autoprefixer": "10.4.2",
-    "eslint": "8.9.0",
+    "eslint": "8.10.0",
     "eslint-config-prettier": "8.4.0",
     "happy-dom": "2.41.0",
     "husky": "7.0.4",
