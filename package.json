@@ -28,7 +28,7 @@
     "eslint-config-prettier": "8.4.0",
     "happy-dom": "2.41.0",
     "husky": "7.0.4",
-    "postcss": "8.4.6",
+    "postcss": "8.4.7",
     "prettier": "2.5.1",
     "sass": "1.49.7",
     "tailwindcss": "3.0.23",
