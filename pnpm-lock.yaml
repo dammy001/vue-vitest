@@ -16,7 +16,7 @@ specifiers:
   tailwindcss: 3.0.23
   typescript: 4.5.5
   vite: 2.8.4
-  vitest: 0.5.0
+  vitest: 0.5.7
   vue: 3.2.31
   vue-tsc: 0.32.0
 
@@ -39,7 +39,7 @@ devDependencies:
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
   vite: 2.8.4_sass@1.49.7
-  vitest: 0.5.0_happy-dom@2.41.0+sass@1.49.7
+  vitest: 0.5.7_happy-dom@2.41.0+sass@1.49.7
   vue-tsc: 0.32.0_typescript@4.5.5
 
 packages:
@@ -3114,8 +3114,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.5.0_happy-dom@2.41.0+sass@1.49.7:
-    resolution: {integrity: sha512-vgEej0Tl0VHztDKFQlC8wItPoszUMjac9rgHyw2uIZv9DK+4NMckxfnvhBHOvsnZXxWHOvk2sXmy80e95c820A==}
+  /vitest/0.5.7_happy-dom@2.41.0+sass@1.49.7:
+    resolution: {integrity: sha512-keLLxLGi+dkXFUuKxCXnBw5MkSZ03cynlG6+LVLaKoyUuW8Xu6NzX1oC6dVNm6Ig7mw6gX9OHV+Lpmcc3tu/mQ==}
     engines: {node: '>=14.14.0'}
     hasBin: true
     peerDependencies:
