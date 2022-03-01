@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@damilaredev/eslint-config-vue': 0.0.10
-  '@vitejs/plugin-vue': 2.2.2
+  '@vitejs/plugin-vue': 2.2.4
   '@vue/test-utils': 2.0.0-rc.18
   autoprefixer: 10.4.2
   eslint: 8.10.0
@@ -372,7 +372,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/2.2.2_vite@2.8.5+vue@3.2.31:
+  /@vitejs/plugin-vue/2.2.4_vite@2.8.5+vue@3.2.31:
     resolution: {integrity: sha512-3C0s45VOwIFEDU+2ownJOpb0zD5fnjXWaHVOLID2R1mYOlAx3doNBFnNbVjaZvpke/L7IdPJXjpyYpXZToDKig==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
