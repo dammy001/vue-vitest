@@ -6,7 +6,7 @@ specifiers:
   '@vue/test-utils': 2.0.0-rc.18
   autoprefixer: 10.4.2
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   happy-dom: 2.41.0
   husky: 7.0.4
   pinia: 2.0.11
@@ -30,7 +30,7 @@ devDependencies:
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.31
   autoprefixer: 10.4.2_postcss@8.4.7
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
   happy-dom: 2.41.0
   husky: 7.0.4
   postcss: 8.4.7
@@ -38,8 +38,8 @@ devDependencies:
   sass: 1.49.9
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.6.2
-  vite: 2.8.5_sass@1.49.7
-  vitest: 0.5.9_happy-dom@2.41.0+sass@1.49.7
+  vite: 2.8.5_sass@1.49.9
+  vitest: 0.5.9_happy-dom@2.41.0+sass@1.49.9
   vue-tsc: 0.32.0_typescript@4.6.2
 
 packages:
@@ -1294,8 +1294,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3114,7 +3114,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.5.9_happy-dom@2.41.0+sass@1.49.7:
+  /vitest/0.5.9_happy-dom@2.41.0+sass@1.49.9:
     resolution: {integrity: sha512-R8lRP9Q1yIbwr8pDf2gvw4PFe8H5YMyHhBcdyfnUh6toLfCR10jrdI/WkNxdo5I4H/9XrMX9t+SAavdJExNdKg==}
     engines: {node: '>=14.14.0'}
     hasBin: true
