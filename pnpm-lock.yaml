@@ -7,7 +7,7 @@ specifiers:
   autoprefixer: 10.4.2
   eslint: 8.10.0
   eslint-config-prettier: 8.5.0
-  happy-dom: 2.46.0
+  happy-dom: 2.46.3
   husky: 7.0.4
   pinia: 2.0.11
   postcss: 8.4.8
@@ -31,7 +31,7 @@ devDependencies:
   autoprefixer: 10.4.2_postcss@8.4.8
   eslint: 8.10.0
   eslint-config-prettier: 8.5.0_eslint@8.10.0
-  happy-dom: 2.46.0
+  happy-dom: 2.46.3
   husky: 7.0.4
   postcss: 8.4.8
   prettier: 2.5.1
@@ -39,7 +39,7 @@ devDependencies:
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.6.2
   vite: 2.8.6_sass@1.49.9
-  vitest: 0.6.0_happy-dom@2.46.0+sass@1.49.9
+  vitest: 0.6.0_happy-dom@2.46.3+sass@1.49.9
   vue-tsc: 0.32.1_typescript@4.6.2
 
 packages:
@@ -1784,8 +1784,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /happy-dom/2.46.0:
-    resolution: {integrity: sha512-OZGUy/D44tLzDQFw2gYJqIMthozUSsVmyCp5P/YhCSFi2F8RxqZkescV7PSixMLahvuIdxyUsne+D9FEyM/DQw==}
+  /happy-dom/2.46.3:
+    resolution: {integrity: sha512-bpzk1NjkB0EGRxb1Nxwjd87VjWcYYFS3v4BuVAZAnpBJAd/Uz3AFgE/0g0ntc30yfD8DzPo9Gd/2nicP0xGiWg==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -3121,7 +3121,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.6.0_happy-dom@2.46.0+sass@1.49.9:
+  /vitest/0.6.0_happy-dom@2.46.3+sass@1.49.9:
     resolution: {integrity: sha512-FuIkLHCQxz6rO35MQROUtVdwcBaYnt198YpPGIrJXmuNHGolfPbrZIiwpD7bek0OiETxuphK3+KR5oJ5Qi1g5A==}
     engines: {node: '>=14.14.0'}
     hasBin: true
@@ -3143,7 +3143,7 @@ packages:
       '@types/chai': 4.3.0
       '@types/chai-subset': 1.3.3
       chai: 4.3.6
-      happy-dom: 2.46.0
+      happy-dom: 2.46.3
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.3.0
