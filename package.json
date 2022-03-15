@@ -26,7 +26,7 @@
     "autoprefixer": "10.4.2",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",
-    "happy-dom": "2.47.0",
+    "happy-dom": "2.47.2",
     "husky": "7.0.4",
     "postcss": "8.4.8",
     "prettier": "2.5.1",
