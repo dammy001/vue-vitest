@@ -4,7 +4,7 @@ specifiers:
   '@damilaredev/eslint-config-vue': 0.0.11
   '@vitejs/plugin-vue': 2.2.4
   '@vue/test-utils': 2.0.0-rc.18
-  autoprefixer: 10.4.3
+  autoprefixer: 10.4.4
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0
   happy-dom: 2.50.0
@@ -28,7 +28,7 @@ devDependencies:
   '@damilaredev/eslint-config-vue': 0.0.11_eslint@8.11.0+typescript@4.6.2
   '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.31
-  autoprefixer: 10.4.3_postcss@8.4.12
+  autoprefixer: 10.4.4_postcss@8.4.12
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0_eslint@8.11.0
   happy-dom: 2.50.0
@@ -36,7 +36,7 @@ devDependencies:
   postcss: 8.4.12
   prettier: 2.5.1
   sass: 1.49.9
-  tailwindcss: 3.0.23_autoprefixer@10.4.3
+  tailwindcss: 3.0.23_autoprefixer@10.4.4
   typescript: 4.6.2
   vite: 2.8.6_sass@1.49.9
   vitest: 0.7.10_happy-dom@2.50.0+sass@1.49.9
@@ -648,8 +648,8 @@ packages:
     resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
     dev: true
 
-  /autoprefixer/10.4.3_postcss@8.4.12:
-    resolution: {integrity: sha512-3EIK6tHl2SyJWCoPsQzL3NEqKOdjCWbPzoOInjVAQYo/y/OCEFG9KwB5162dehG5GadiGfgxu7nrWCpExCfRFQ==}
+  /autoprefixer/10.4.4_postcss@8.4.12:
+    resolution: {integrity: sha512-Tm8JxsB286VweiZ5F0anmbyGiNI3v3wGv3mz9W+cxEDYB/6jbnj6GM9H9mK3wIL8ftgl+C07Lcwb8PG5PCCPzA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2784,7 +2784,7 @@ packages:
       get-port: 3.2.0
     dev: true
 
-  /tailwindcss/3.0.23_autoprefixer@10.4.3:
+  /tailwindcss/3.0.23_autoprefixer@10.4.4:
     resolution: {integrity: sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -2792,7 +2792,7 @@ packages:
       autoprefixer: ^10.0.2
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.3_postcss@8.4.12
+      autoprefixer: 10.4.4_postcss@8.4.12
       chalk: 4.1.2
       chokidar: 3.5.3
       color-name: 1.1.4
