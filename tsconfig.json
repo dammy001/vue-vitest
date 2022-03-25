@@ -14,7 +14,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "lib": ["esnext", "dom"],
-    "types": ["vitest/global"],
+    "types": ["vitest/globals"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
