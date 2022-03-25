@@ -17,7 +17,7 @@ export default defineConfig({
     port: 4444,
   },
   test: {
-    global: true,
+    globals: true,
     environment: 'happy-dom',
     coverage: {
       reporter: ['text', 'html'],
