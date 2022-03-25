@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@damilaredev/eslint-config-vue': 0.0.11
+  '@damilaredev/eslint-config-vue': 0.0.12
   '@vitejs/plugin-vue': 2.2.4
   '@vue/test-utils': 2.0.0-rc.18
   autoprefixer: 10.4.4
@@ -25,7 +25,7 @@ dependencies:
   vue: 3.2.31
 
 devDependencies:
-  '@damilaredev/eslint-config-vue': 0.0.11_eslint@8.11.0+typescript@4.6.3
+  '@damilaredev/eslint-config-vue': 0.0.12_eslint@8.11.0+typescript@4.6.3
   '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.31
   autoprefixer: 10.4.4_postcss@8.4.12
@@ -70,8 +70,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  /@damilaredev/eslint-config-basic/0.0.11_eslint@8.11.0:
-    resolution: {integrity: sha512-pnBGgMPk1a/o0kJ1CgpYCaV1L373ez609nxy5qsz/LagkZYln1t0Hd7f0q/QtIxI8ER/uAV61MzWqCBnHqsp+A==}
+  /@damilaredev/eslint-config-basic/0.0.12_eslint@8.11.0:
+    resolution: {integrity: sha512-l3HYzpjY8AuS+NtdhWLhfKzV+m9x63Aupiyd6MEc3JYsuIql+LD+0oN2X8wlHT7nSCSXZiLif2gpEEaaloedkA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -91,13 +91,13 @@ packages:
       - supports-color
     dev: true
 
-  /@damilaredev/eslint-config-typescript/0.0.11_eslint@8.11.0+typescript@4.6.3:
-    resolution: {integrity: sha512-xdJPlD1wYxrfyCz45P3EElRe6IulDXXvdV4UV5lrgm7PQTIu/KQhEoHDDkGrRjy1zM/++iWOAY30+2//sbMLfA==}
+  /@damilaredev/eslint-config-typescript/0.0.12_eslint@8.11.0+typescript@4.6.3:
+    resolution: {integrity: sha512-y1pJbLZSEnF3ZQLmI0BNr4FHOvfvTjQJiQgyhI/4PzI726QR02sU1H3MhXTOopedPISkUZKqSmPGhnXaQfv7BQ==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@damilaredev/eslint-config-basic': 0.0.11_eslint@8.11.0
+      '@damilaredev/eslint-config-basic': 0.0.12_eslint@8.11.0
       '@typescript-eslint/eslint-plugin': 5.16.0_bc68a9cd5bf604202498b1a9faaf9387
       '@typescript-eslint/parser': 5.16.0_eslint@8.11.0+typescript@4.6.3
       eslint: 8.11.0
@@ -106,12 +106,12 @@ packages:
       - supports-color
     dev: true
 
-  /@damilaredev/eslint-config-vue/0.0.11_eslint@8.11.0+typescript@4.6.3:
-    resolution: {integrity: sha512-ErThv25rFydHHV6ufFiuQ1RcuK8z5DJvhurASnXES5a3dO6ovJPWasOq0BiPSilhKvnPzODbdO1QkKBJaRAYGA==}
+  /@damilaredev/eslint-config-vue/0.0.12_eslint@8.11.0+typescript@4.6.3:
+    resolution: {integrity: sha512-O6brgPdlTEwps7hA24fQy07bnUYC1nWqUib5fnVZ9tLgmhXNcMDuDw29OCNfB+jyWwRPE43+NKl7X4LS5X0rbw==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@damilaredev/eslint-config-typescript': 0.0.11_eslint@8.11.0+typescript@4.6.3
+      '@damilaredev/eslint-config-typescript': 0.0.12_eslint@8.11.0+typescript@4.6.3
       eslint: 8.11.0
       eslint-plugin-vue: 8.5.0_eslint@8.11.0
     transitivePeerDependencies:
