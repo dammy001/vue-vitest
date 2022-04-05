@@ -12,7 +12,7 @@ specifiers:
   pinia: 2.0.13
   postcss: 8.4.12
   prettier: 2.6.2
-  sass: 1.49.10
+  sass: 1.49.11
   tailwindcss: 3.0.23
   typescript: 4.6.3
   vite: 2.9.1
@@ -35,11 +35,11 @@ devDependencies:
   husky: 7.0.4
   postcss: 8.4.12
   prettier: 2.6.2
-  sass: 1.49.10
+  sass: 1.49.11
   tailwindcss: 3.0.23_autoprefixer@10.4.4
   typescript: 4.6.3
-  vite: 2.9.1_sass@1.49.10
-  vitest: 0.8.4_happy-dom@2.55.0+sass@1.49.10
+  vite: 2.9.1_sass@1.49.11
+  vitest: 0.8.4_happy-dom@2.55.0+sass@1.49.11
   vue-tsc: 0.33.9_typescript@4.6.3
 
 packages:
@@ -355,7 +355,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.1_sass@1.49.10
+      vite: 2.9.1_sass@1.49.11
       vue: 3.2.31
     dev: true
 
@@ -2596,8 +2596,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass/1.49.10:
-    resolution: {integrity: sha512-w37zfWJwKu4I78U4z63u1mmgoncq+v3iOB4yzQMPyAPVHHawaQSnu9C9ysGQnZEhW609jkcLioJcMCqm75JMdg==}
+  /sass/1.49.11:
+    resolution: {integrity: sha512-wvS/geXgHUGs6A/4ud5BFIWKO1nKd7wYIGimDk4q4GFkJicILActpv9ueMT4eRGSsp1BdKHuw1WwAHXbhsJELQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -2934,7 +2934,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.9.1_sass@1.49.10:
+  /vite/2.9.1_sass@1.49.11:
     resolution: {integrity: sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -2954,12 +2954,12 @@ packages:
       postcss: 8.4.12
       resolve: 1.22.0
       rollup: 2.70.1
-      sass: 1.49.10
+      sass: 1.49.11
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.8.4_happy-dom@2.55.0+sass@1.49.10:
+  /vitest/0.8.4_happy-dom@2.55.0+sass@1.49.11:
     resolution: {integrity: sha512-1OoAG1+VYkzp4WLCVQFRJX/OKk70rsMIM5H23crfc1wSEnJvHlxgQBS1HPpV/VYmjC8bIInKWhnB4Gaw32MnyQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -2985,7 +2985,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.3.0
-      vite: 2.9.1_sass@1.49.10
+      vite: 2.9.1_sass@1.49.11
     transitivePeerDependencies:
       - less
       - sass
