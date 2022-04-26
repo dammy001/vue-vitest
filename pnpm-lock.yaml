@@ -12,7 +12,7 @@ specifiers:
   pinia: 2.0.13
   postcss: 8.4.12
   prettier: 2.6.2
-  sass: 1.50.1
+  sass: 1.51.0
   tailwindcss: 3.0.24
   typescript: 4.6.3
   vite: 2.9.5
@@ -35,11 +35,11 @@ devDependencies:
   husky: 7.0.4
   postcss: 8.4.12
   prettier: 2.6.2
-  sass: 1.50.1
+  sass: 1.51.0
   tailwindcss: 3.0.24
   typescript: 4.6.3
-  vite: 2.9.5_sass@1.50.1
-  vitest: 0.9.4_happy-dom@2.55.0+sass@1.50.1
+  vite: 2.9.5_sass@1.51.0
+  vitest: 0.9.4_happy-dom@2.55.0+sass@1.51.0
   vue-tsc: 0.34.7_typescript@4.6.3
 
 packages:
@@ -351,7 +351,7 @@ packages:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.5_sass@1.50.1
+      vite: 2.9.5_sass@1.51.0
       vue: 3.2.33
     dev: true
 
@@ -2519,8 +2519,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass/1.50.1:
-    resolution: {integrity: sha512-noTnY41KnlW2A9P8sdwESpDmo+KBNkukI1i8+hOK3footBUcohNHtdOJbckp46XO95nuvcHDDZ+4tmOnpK3hjw==}
+  /sass/1.51.0:
+    resolution: {integrity: sha512-haGdpTgywJTvHC2b91GSq+clTKGbtkkZmVAb82jZQN/wTy6qs8DdFm2lhEQbEwrY0QDRgSQ3xDurqM977C3noA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
@@ -2845,7 +2845,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.9.5_sass@1.50.1:
+  /vite/2.9.5_sass@1.51.0:
     resolution: {integrity: sha512-dvMN64X2YEQgSXF1lYabKXw3BbN6e+BL67+P3Vy4MacnY+UzT1AfkHiioFSi9+uiDUiaDy7Ax/LQqivk6orilg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
@@ -2865,12 +2865,12 @@ packages:
       postcss: 8.4.12
       resolve: 1.22.0
       rollup: 2.70.1
-      sass: 1.50.1
+      sass: 1.51.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.9.4_happy-dom@2.55.0+sass@1.50.1:
+  /vitest/0.9.4_happy-dom@2.55.0+sass@1.51.0:
     resolution: {integrity: sha512-Em+EJb3keCr3GjyqnkxHuY7zMerEgLsN+m2nqsUcCzO7C4+Y0E7O7LXSNaODh3Gc/An3dqnoaAe/uLBrAJXUdQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -2896,7 +2896,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.3.2
-      vite: 2.9.5_sass@1.50.1
+      vite: 2.9.5_sass@1.51.0
     transitivePeerDependencies:
       - less
       - sass
