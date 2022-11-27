@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@damilaredev/eslint-config-vue': 0.0.17
   '@vitejs/plugin-vue': 3.0.3
-  '@vue/test-utils': 2.0.2
+  '@vue/test-utils': 2.2.4
   autoprefixer: 10.4.8
   eslint: 8.25.0
   eslint-config-prettier: 8.5.0
@@ -27,7 +27,7 @@ dependencies:
 devDependencies:
   '@damilaredev/eslint-config-vue': 0.0.17_eslint@8.25.0+typescript@4.7.4
   '@vitejs/plugin-vue': 3.0.3_vite@2.9.9+vue@3.2.41
-  '@vue/test-utils': 2.0.2_vue@3.2.41
+  '@vue/test-utils': 2.2.4_vue@3.2.41
   autoprefixer: 10.4.8_postcss@8.4.19
   eslint: 8.25.0
   eslint-config-prettier: 8.5.0_eslint@8.25.0
@@ -519,8 +519,8 @@ packages:
   /@vue/shared/3.2.41:
     resolution: {integrity: sha512-W9mfWLHmJhkfAmV+7gDjcHeAWALQtgGT3JErxULl0oz6R6+3ug91I7IErs93eCFhPCZPHBs4QJS7YWEV7A3sxw==}
 
-  /@vue/test-utils/2.0.2_vue@3.2.41:
-    resolution: {integrity: sha512-E2P4oXSaWDqTZNbmKZFVLrNN/siVN78YkEqs7pHryWerrlZR9bBFLWdJwRoguX45Ru6HxIflzKl4vQvwRMwm5g==}
+  /@vue/test-utils/2.2.4_vue@3.2.41:
+    resolution: {integrity: sha512-1JjLduJ84bFcuCt/1YLTNyktYeUHS/zA0u8iTmF6w6ul1K/nSvyKu/MC47YjdpZ4lI/hn7FH31B22kfz62e9wA==}
     peerDependencies:
       vue: ^3.0.1
     dependencies:
