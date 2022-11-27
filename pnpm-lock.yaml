@@ -9,7 +9,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   happy-dom: 6.0.4
   husky: 8.0.1
-  pinia: 2.0.22
+  pinia: 2.0.27
   postcss: 8.4.19
   prettier: 2.7.1
   sass: 1.54.5
@@ -21,7 +21,7 @@ specifiers:
   vue-tsc: 0.40.13
 
 dependencies:
-  pinia: 2.0.22_typescript@4.7.4+vue@3.2.41
+  pinia: 2.0.27_typescript@4.7.4+vue@3.2.41
   vue: 3.2.41
 
 devDependencies:
@@ -456,8 +456,8 @@ packages:
       '@vue/compiler-dom': 3.2.41
       '@vue/shared': 3.2.41
 
-  /@vue/devtools-api/6.2.1:
-    resolution: {integrity: sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==}
+  /@vue/devtools-api/6.4.5:
+    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
     dev: false
 
   /@vue/reactivity-transform/3.2.41:
@@ -2440,8 +2440,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia/2.0.22_typescript@4.7.4+vue@3.2.41:
-    resolution: {integrity: sha512-u+b8/BC+tmvo3ACbYO2w5NfxHWFOjvvw9DQnyT0dW8aUMCPRQT5QnfZ5R5W2MzZBMTeZRMQI7V/QFbafmM9QHw==}
+  /pinia/2.0.27_typescript@4.7.4+vue@3.2.41:
+    resolution: {integrity: sha512-nOnXP0OFeL8R4WjAHsterU+11vptda643gH02xKNtSCDPiRzVfRYodOLihLDoa0gL1KKuQKV+KOzEgdt3YvqEw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -2452,7 +2452,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@vue/devtools-api': 6.2.1
+      '@vue/devtools-api': 6.4.5
       typescript: 4.7.4
       vue: 3.2.41
       vue-demi: 0.12.4_vue@3.2.41
