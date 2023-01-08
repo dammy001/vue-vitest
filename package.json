@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@damilaredev/eslint-config-vue": "0.0.17",
-    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue": "4.0.0",
     "@vue/test-utils": "2.2.7",
     "autoprefixer": "10.4.8",
     "eslint": "8.28.0",
