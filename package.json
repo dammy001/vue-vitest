@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "pinia": "2.0.27",
-    "vue": "3.2.41"
+    "vue": "3.5.13"
   },
   "devDependencies": {
     "@damilaredev/eslint-config-vue": "0.0.17",
