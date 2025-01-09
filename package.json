@@ -23,7 +23,7 @@
     "@damilaredev/eslint-config-vue": "0.0.19",
     "@vitejs/plugin-vue": "4.0.0",
     "@vue/test-utils": "2.4.6",
-    "autoprefixer": "10.4.13",
+    "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-config-prettier": "8.6.0",
     "happy-dom": "8.9.0",
